@@ -1,0 +1,4 @@
+# 번역 파일은 줄 끝(CRLF)과 구분자를 변환하지 않는다.
+*.csv -text
+*.bat text eol=crlf
+*.ps1 text eol=crlf

@@ -1,0 +1,380 @@
+[
+  {
+    "key": "[QUOTE|Let us help the giants to create the perfect planet!",
+    "before": "[QUOTE|거인들이 완벽한 행성을 만들도록 돕자!",
+    "baselineBefore": "[QUOTE|거인들이 완벽한 행성을 만들도록 돕자!",
+    "after": "[QUOTE|거인들이 완벽한 행성을 만들도록 돕자!]",
+    "reason": "사용자 지시대로 KEY는 유지하고 번역값에만 QUOTE의 닫는 대괄호를 복원했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "AFRICAN_ELEPHANT_OVERRIDENAME_HERD_LEADER_3",
+    "before": "무리의 우두머리 (3)",
+    "baselineBefore": "무리의 우두머리 (3)",
+    "after": "무리의 우두머리 (2)",
+    "reason": "식별 KEY의 단계 접미사가 아니라 영어 표시문 Herd Leader (2)의 번호를 번역했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "AFRICAN_ELEPHANT_OVERRIDENAME_HERD_LEADER_4",
+    "before": "무리의 우두머리 (4)",
+    "baselineBefore": "무리의 우두머리 (4)",
+    "after": "무리의 우두머리 (2)",
+    "reason": "식별 KEY의 단계 접미사가 아니라 영어 표시문 Herd Leader (2)의 번호를 번역했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "AFRICAN_ELEPHANT_OVERRIDENAME_HERD_LEADER_5",
+    "before": "무리의 우두머리 (5)",
+    "baselineBefore": "무리의 우두머리 (5)",
+    "after": "무리의 우두머리 (2)",
+    "reason": "식별 KEY의 단계 접미사가 아니라 영어 표시문 Herd Leader (2)의 번호를 번역했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "AMUR_LEOPARD_EXPLAINER_ALL_TREE_BIOTICA",
+    "before": "이 생물군계의 모든 [b|나무] [BIOTICA]가 <길 잃음> 태그를 얻습니다.",
+    "baselineBefore": "이 생물군계의 모든 [b|나무] [BIOTICA]가 <길 잃음> 태그를 얻습니다.",
+    "after": "이 생물군계의 모든 [b|나무] [BIOTICA]가 [TAG|길 잃음] 태그를 얻습니다.",
+    "reason": "Lost는 표시할 특성명이며 기존 LOST_VISUALNAME=길 잃음과 맞췄습니다. 각괄호 표시를 실제 FMACROS_TAG로 처리했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "CALL_FROM_BEYOND_UNAVAILABLETEXT",
+    "before": "[b|초식 동물 3개] [BIOTICA]가 있거나 [WEALTH_C|20] 이상인 도시 하나가 필요합니다.",
+    "baselineBefore": "[b|초식 동물 3개] [BIOTICA]가 있거나 [WEALTH_C|20] 이상인 도시 하나가 필요합니다.",
+    "after": "[b|초식 동물] [BIOTICA]를 최소 [b|3개] 보유하거나 [WEALTH_C|20] 이상의 부를 갖춘 도시가 하나 있어야 합니다.",
+    "reason": "꾸밈용 b 태그를 나누어 수식어·대상·수량을 자연스럽게 배치하고 at least 조건을 명시했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "CE_HUNTER_FLUFF",
+    "before": "여자 사냥꾼에게 [ANIMALS]을 최대한 활용하는 법을 배웁니다.",
+    "baselineBefore": "여자 사냥꾼에게 [ANIMALS]을 최대한 활용하는 법을 배웁니다.",
+    "after": "여사냥꾼에게 [ANIMALS]을 최대한 활용하는 법을 배웁니다.",
+    "reason": "기존 후속 용어 목록을 대조해 Huntress 공통 인물명 여사냥꾼과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "CH_HUNTRESS_COMPLETE_DESCRIPTION",
+    "before": "여자 사냥꾼으로 행성 하나 완료",
+    "baselineBefore": "여자 사냥꾼으로 행성 하나 완료",
+    "after": "여사냥꾼으로 행성 하나 완료",
+    "reason": "기존 후속 용어 목록을 대조해 Huntress 공통 인물명 여사냥꾼과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "CH_HUNTRESS_HIGHSCORE_DESCRIPTION",
+    "before": "여자 사냥꾼으로 행성을 완료하고 300점 이상 획득(도전/거신 전용)",
+    "baselineBefore": "여자 사냥꾼으로 행성을 완료하고 최소 300점 획득(도전 또는 거신에서만 가능)",
+    "after": "여사냥꾼으로 행성을 완료하고 300점 이상 획득(도전/거신 전용)",
+    "reason": "기존 후속 용어 목록을 대조해 Huntress 공통 인물명 여사냥꾼과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "CHINESE_JUJUBE_EXPLAINER_ALL_FRUIT_IN",
+    "before": "이 생물군계의 모든 [b|열매]에 [b|<조화>] 태그가 부여되며, 인접한 서로 다른 바이오티카 유형 하나당 [FOOD|+25]와 [CURIO|+25]를 얻습니다.",
+    "baselineBefore": "이 생물군계의 모든 [b|열매]에 [b|<조화>] 태그가 부여되며, 인접한 서로 다른 바이오티카 유형 하나당 [FOOD|+25]와 [CURIO|+25]를 얻습니다.",
+    "after": "이 생물군계의 모든 [b|열매]에 <b>[TAG|조화]</b> 태그가 부여되며, 인접한 서로 다른 바이오티카 유형 하나당 [FOOD|+25]와 [CURIO|+25]를 얻습니다.",
+    "reason": "Harmony는 HARMONY_VISUALNAME=조화인 표시 태그입니다. 중첩 대괄호 매크로를 만들지 않고 굵기와 TAG 표시를 함께 유지했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "EMBLEM_HUNTRESS_VISUALNAME",
+    "before": "여자 사냥꾼 배지",
+    "baselineBefore": "여자 사냥꾼 배지",
+    "after": "여사냥꾼 배지",
+    "reason": "기존 후속 용어 목록을 대조해 Huntress 공통 인물명 여사냥꾼과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "EMBLEM_HUNTRESS_VISUALNAME_2",
+    "before": "여자 사냥꾼 배지+",
+    "baselineBefore": "여자 사냥꾼 배지+",
+    "after": "여사냥꾼 배지+",
+    "reason": "기존 후속 용어 목록을 대조해 Huntress 공통 인물명 여사냥꾼과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "EMBLEM_HUNTRESS_VISUALNAME_3",
+    "before": "여자 사냥꾼 배지++",
+    "baselineBefore": "여자 사냥꾼 배지++",
+    "after": "여사냥꾼 배지++",
+    "reason": "기존 후속 용어 목록을 대조해 Huntress 공통 인물명 여사냥꾼과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "ENTOMOLOGIST_EFFECTDESCRIPTION_ALL_UNIQUE_COHORT",
+    "before": "모든 [b|고유] [b|보조 바이오티카] 중 [TAG|소형 동물] 또는 [TAG|관목]에 해당하는 [BIOTICA]는 무작위 거인의 [ASPECT] 하나를 지닌 채 시작합니다.",
+    "baselineBefore": "모든 [b|고유] [b|보조 바이오티카] [TAG|소형 동물] 및 [TAG|관목] [BIOTICA]는 시작할 때 무작위 거인 [ASPECT] 하나를 얻습니다.",
+    "after": "[b|보조 바이오티카] 중 [TAG|소형 동물] 또는 [TAG|관목]에 해당하고 [b|같은 종류의 다른 개체가 없는] 모든 [BIOTICA]는 무작위 거인의 [ASPECT] 하나를 지닌 채 시작합니다.",
+    "reason": "Unique의 중복 제외 의미를 명시했습니다. 원문에 없는 특정 판정 범위는 덧붙이지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "GIANT_SLOTH_EXPLAINER_ALL_PLANTS_IN",
+    "before": "이 생물군계의 모든 식물은 <멸종>, [FOOD|+35] 및 멸종 규칙을 얻습니다.",
+    "baselineBefore": "이 생물군계의 모든 식물은 <멸종>, [FOOD|+35] 및 멸종 규칙을 얻습니다.",
+    "after": "이 생물군계의 모든 식물은 [TAG|멸종], [FOOD|+35] 및 멸종 규칙을 얻습니다.",
+    "reason": "Extinct는 표시 특성명으로 번역하고 실제 TAG 표시 매크로를 사용했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "IDOPTILUS_VISUALNAME",
+    "before": "고망시류",
+    "baselineBefore": "고망시류",
+    "after": "이도프틸루스",
+    "reason": "영어 속명 Idoptilus를 음역하여 더 넓은 분류명인 고망시류로 대체하지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "LIGHTNING_STRIKE_EXPLAINER_ALL_UNIQUE_TAG",
+    "before": "행성에 있는 모든 [b|고유] [TAG|고등] [BIOTICA]가 [ALLSTATS|+50%]와 [MYSTERY|+50%]를 얻습니다.",
+    "baselineBefore": "행성에 있는 모든 [b|고유] [TAG|고등] [BIOTICA]가 [ALLSTATS|+50%]와 [MYSTERY|+50%]를 얻습니다.",
+    "after": "행성에 있는 [TAG|고등] [BIOTICA] 중 [b|같은 종류의 다른 개체가 없는] 개체는 모두 [ALLSTATS|+50%]와 [MYSTERY|+50%]를 얻습니다.",
+    "reason": "Unique를 고유라는 추상 표현 대신 같은 종류의 다른 개체가 없는 조건으로 옮겼습니다. 원문 이상의 범위를 추정하지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "NIGHTSHADE_VISUALNAME",
+    "before": "벨라도나",
+    "baselineBefore": "벨라도나",
+    "after": "가지속 식물",
+    "reason": "영어 이름 Nightshade와 영어 자연사 설명의 genus Solanum을 함께 대조했습니다. 중국어의 특정 식물 벨라도나로 한정하지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "ORANGE_TREE_NATUREFACT",
+    "before": "스위트오렌지는 인류가 길들인 과일입니다. 거의 모든 감귤속 나무는 서로 수분할 수 있어 품종이 매우 다양합니다.\n\n헤라클레스의 열한 번째 과업에서 헤스페리데스의 감시를 피해 훔친 황금 사과, 곧 가이아가 헤라에게 준 결혼 선물은 사실... 오렌지였다고 합니다. 그리스어에서는 감귤류를 여전히 “헤스페리데스”라고 부릅니다.",
+    "baselineBefore": "스위트오렌지는 인류가 길들인 과일입니다. 거의 모든 감귤속 나무는 서로 수분할 수 있어 품종이 매우 다양합니다.\n\n헤라클레스의 열한 번째 과업에서 헤스페리데스의 감시를 피해 훔친 황금 사과, 곧 가이아가 헤라에게 준 결혼 선물은 사실... 오렌지였다고 합니다. 그리스어에서는 감귤류를 여전히 ‘헤스페리데스’라고 부릅니다.",
+    "after": "스위트오렌지는 인류가 길들인 과일입니다. 거의 모든 감귤속 나무는 서로 수분할 수 있어 품종이 매우 다양합니다.\n\n헤라클레스의 열한 번째 과업에 등장하는 헤스페리데스의 황금 사과는 가이아가 헤라에게 준 결혼 선물이자, 헤라클레스에게서 도난당한 물건입니다. 그런데 사실은... 오렌지였다고 합니다. 그리스어에서는 감귤류를 여전히 “헤스페리데스”라고 부릅니다.",
+    "reason": "영어 원문의 stolen from Hercules himself를 우선했습니다. 중국어의 헤스페리데스에게서 훔쳤다는 관계나 실제 신화 지식으로 원작 문장을 교정하지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PALACE_OF_PLEASURE_EXPLAINER_LUXURY_SLOT_IF",
+    "before": "[b|영역] 안에 [UNIQUE] [TAG|모피]가 [b|3]종류 있으면 [b|사치품 슬롯 +2]",
+    "baselineBefore": "[b|영역] 안에 서로 다른 [UNIQUE] [TAG|모피]가 [b|3]종류 있으면 [b|사치품 슬롯 +2]",
+    "after": "[b|영역] 안에 [UNIQUE] [TAG|모피]가 [b|3]종류 있으면 [b|발명품 슬롯 +2]",
+    "reason": "꾸밈용 b 인수 안의 옛 용어를 현재 Luxury=발명품과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PALACE_OF_PLEASURE_EXPLAINER_LUXURY_SLOT_IF_2",
+    "before": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "baselineBefore": "[b|영역] 안에 서로 다른 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "after": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|발명품 슬롯 +1]",
+    "reason": "꾸밈용 b 인수 안의 옛 용어를 현재 Luxury=발명품과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PALACE_OF_PLEASURE_EXPLAINER_LUXURY_SLOT_IF_3",
+    "before": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "baselineBefore": "[b|영역] 안에 서로 다른 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "after": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|발명품 슬롯 +1]",
+    "reason": "꾸밈용 b 인수 안의 옛 용어를 현재 Luxury=발명품과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PALACE_OF_PLEASURE_EXPLAINER_LUXURY_SLOT_IF_4",
+    "before": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "baselineBefore": "[b|영역] 안에 서로 다른 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "after": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|발명품 슬롯 +1]",
+    "reason": "꾸밈용 b 인수 안의 옛 용어를 현재 Luxury=발명품과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PALACE_OF_PLEASURE_EXPLAINER_LUXURY_SLOT_IF_5",
+    "before": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "baselineBefore": "[b|영역] 안에 서로 다른 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|사치품 슬롯 +1]",
+    "after": "[b|영역] 안에 [UNIQUE] [TAG|열매]가 [b|3]종류 있으면 [b|발명품 슬롯 +1]",
+    "reason": "꾸밈용 b 인수 안의 옛 용어를 현재 Luxury=발명품과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PLAY_ON_TUTORIALSTRING",
+    "before": "<b><smallcaps>행성 완료하기</smallcaps></b>\n\n모든 [EON]을 사용하면 행성이 완료됩니다. [b|자유 모드]에서는 원할 때 언제든 완료할 수 있습니다. [PROSPERITY]은 행성이 얼마나 성공적으로 발전했는지 보여 주는 최종 지표입니다. 다음 목표를 최대한 많이 달성하세요.\n\n[TAB][BP] 해당 [b|시대]의 [b|도전 과제] 완료\n[TAB][BP] 도시의 [b|요청] 완료\n[TAB][BP] [PROSPERITY] 증가\n\n더 많이 달성할수록 다음 게임에서 사용할 새로운 항목을 더 많이 해금할 수 있습니다.",
+    "baselineBefore": "<b><smallcaps>행성 완성하기</smallcaps></b>\n\n모든 [EON]을 사용하면 행성이 완성됩니다. [b|자유 모드]에서는 원할 때 언제든 완성할 수 있습니다. [PROSPERITY]은 행성이 얼마나 성공적으로 발전했는지 보여 주는 최종 지표입니다. 다음 목표를 최대한 많이 달성하세요.\n\n[TAB][BP] 해당 [b|시대]의 [b|도전 과제] 완료\n[TAB][BP] 도시의 [b|요청] 완료\n[TAB][BP] [PROSPERITY] 증가\n\n더 많이 달성할수록 다음 게임에서 사용할 새로운 항목을 더 많이 해금할 수 있습니다.",
+    "after": "<b><smallcaps>행성 완료하기</smallcaps></b>\n\n모든 [EON]을 사용하면 행성이 완료됩니다. [b|자유 모드]에서는 원할 때 언제든 완료할 수 있습니다. [PROSPERITY]은 행성이 얼마나 성공적으로 발전했는지 보여 주는 최종 지표입니다. 다음 목표를 최대한 많이 달성하세요.\n\n[TAB][BP] 해당 [b|시대]의 [b|도전 임무] 완료\n[TAB][BP] 도시의 [b|요청] 완료\n[TAB][BP] [PROSPERITY] 증가\n\n더 많이 달성할수록 다음 게임에서 사용할 새로운 항목을 더 많이 해금할 수 있습니다.",
+    "reason": "Challenger Quest는 일반 업적이 아니라 해당 시대의 도전 임무이므로 꾸밈 태그 안의 표시어를 명확히 했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PRIMAL_FLINT_EXPLAINER_ALL_EXTINCT_BIOTICA",
+    "before": "이 생물군계의 모든 <멸종>[BIOTICA]가 [FOOD|+15]를 얻습니다.",
+    "baselineBefore": "이 생물군계의 모든 <멸종>[BIOTICA]가 [FOOD|+15]를 얻습니다.",
+    "after": "이 생물군계의 모든 [TAG|멸종] [BIOTICA]가 [FOOD|+15]를 얻습니다.",
+    "reason": "멸종 특성명은 번역 대상이며 실제 TAG 매크로로 표시했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "PRISTINE_FOSSIL_EXPLAINER_ALL_REPTILE_BIOTICA",
+    "before": "이 생물군계의 모든 [b|파충류] [BIOTICA]가 <멸종>, [VALUABLES|+35] 및 멸종 규칙을 얻습니다.",
+    "baselineBefore": "이 생물군계의 모든 [b|파충류] [BIOTICA]가 <멸종>, [VALUABLES|+35] 및 멸종 규칙을 얻습니다.",
+    "after": "이 생물군계의 모든 [b|파충류] [BIOTICA]가 [TAG|멸종], [VALUABLES|+35] 및 멸종 규칙을 얻습니다.",
+    "reason": "멸종 특성명을 유지하면서 각괄호 표시는 실제 TAG 매크로로 처리했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "REEF_SHARK_EXPLAINER_ALL_REEF_BIOTICA",
+    "before": "\n이 생물군계의 모든 [b|산호초] [BIOTICA]가 [b|<포식 동물>] 태그를 얻습니다.",
+    "baselineBefore": "\n이 생물군계의 모든 [b|산호초] [BIOTICA]가 [b|<포식 동물>] 태그를 얻습니다.",
+    "after": "\n이 생물군계의 모든 [b|산호초] [BIOTICA]가 <b>[TAG|포식 동물]</b> 태그를 얻습니다.",
+    "reason": "Predator는 포식 동물이라는 표시 태그입니다. 굵기를 유지하고 TAG 매크로로 표시했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "SECRET_CONSPIRACY_UNAVAILABLETEXT",
+    "before": "최소 [b|파충류 2종류]와 [PROSPERITY|75]를 갖춘 도시를 하나 만드세요.",
+    "baselineBefore": "최소 [b|파충류 2종류]와 [PROSPERITY|75]를 갖춘 도시를 하나 만드세요.",
+    "after": "[b|파충류]를 최소 [b|2개] 보유하고 [PROSPERITY|75] 이상을 갖춘 도시가 하나 있어야 합니다.",
+    "reason": "영어의 2 Reptiles를 개체 수로 옮기고 중국어의 종류 수 한정을 추가하지 않았습니다. b 태그를 자연스러운 수량 어순으로 나눴습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "SPOTTED_HYENA_NATUREFACT",
+    "before": "겉보기에도 짖는 소리도 개와 비슷하지만, 하이에나는 몽구스와 같은 상과에 속하는 동물입니다.",
+    "baselineBefore": "겉보기에도 짖는 소리도 개와 비슷하지만, 하이에나는 몽구스와 같은 상과에 속하는 동물입니다.",
+    "after": "겉모습도 짖는 소리도 개와 비슷하지만, 하이에나는 몽구스과에 속하는 동물입니다.",
+    "reason": "영어 mongoose family를 우선 번역했습니다. 실제 분류 지식이나 중국어의 상과로 원작 내용을 바꾸지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "SUCKERFISH_NATUREFACT",
+    "before": "빨판상어는 바다 동물 중 임신 기간이 가장 짧은 편이라고 합니다. 심지어 1분마다 한 마리가 태어난다는 말도 있죠.",
+    "baselineBefore": "빨판상어는 바다 동물 중 임신 기간이 가장 짧은 편이라고 합니다. 심지어 1분마다 한 마리가 태어난다는 말도 있죠.",
+    "after": "바다에서 임신 기간이 가장 짧은 동물 중 하나로, 1분마다 한 마리씩 태어납니다.",
+    "reason": "영어의 진술과 born every minute 표현을 그대로 전달했습니다. 사실성이나 농담 여부를 이유로 번역을 보류하거나 원문에 없는 유보 표현을 추가하지 않았습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "TEST_GIANT_MAINMENUDESCRIPTION",
+    "before": "<missing main menu description>",
+    "baselineBefore": "<missing main menu description>",
+    "after": "메인 메뉴 설명 없음",
+    "reason": "개발용 누락 안내는 기능 태그가 아닌 표시 문자열이므로 한국어로 번역했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "TEXTPOPUP_NARRATIVEPROFILEINTRO_PAGE_TEXT_OR_HOW_THEY",
+    "before": "또 그들이 [b|\"자연\"]이라 부르는 존재와 조화를 이루는 세상을 만들고 싶어 합니다...",
+    "baselineBefore": "또 그들이 [b|\"자연\"]이라 부르는 존재와 조화를 이루는 세상을 만들고 싶어 합니다...",
+    "after": "또 그들이 [b|“자연”]이라 부르는 존재와 조화를 이루는 세상을 만들고 싶어 합니다...",
+    "reason": "굵기 인수 안의 본문 인용부호도 한국어 큰따옴표로 교정했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "TEXTPOPUP_NARRATIVEPROFILEINTRO_PAGE_TEXT_YOU_HEAR_MANY",
+    "before": "그들의 새로운 포부가 계속 들려옵니다.\n그들은 당신에게 도움을 청하며 [b|\"자연\"]이라 부릅니다...",
+    "baselineBefore": "그들의 새로운 포부가 계속 들려옵니다.\n그들은 당신에게 도움을 청하며 [b|\"자연\"]이라 부릅니다...",
+    "after": "그들의 새로운 포부가 계속 들려옵니다.\n그들은 당신에게 도움을 청하며 [b|“자연”]이라 부릅니다...",
+    "reason": "굵기 인수 안의 본문 인용부호도 한국어 큰따옴표로 교정했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "This [BIOTICUM] has been unlocked by [b|Evolve], and has [b|100%][ALLSTATS|][MYSTERY|].",
+    "before": "이 [BIOTICUM]은 [b|진화]로 해금되었으며 [b|100%]의 [ALLSTATS|][MYSTERY|] 보너스를 얻습니다.",
+    "baselineBefore": "이 [BIOTICUM]은 [b|진화]로 해금되었으며 [b|100%]의 [ALLSTATS|][MYSTERY|] 보너스를 얻습니다.",
+    "after": "이 [BIOTICUM]은 [b|진화]로 해금되었습니다. 효과: [b|100%][ALLSTATS|][MYSTERY|]",
+    "reason": "영어 100% 표시는 그대로 전달하되 추가 보너스인지 최종 비율인지 임의로 단정하는 표현을 제거했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "Upgrades the Planet Shop with new option:\n[TAB][BP] Spend [INNO] to gain a [b|Border Boosters].\n[TAB][BP] Spend [WEALTH] to buy {0}\n[TAB][BP] Spend any resource to buy extra [EON].",
+    "before": "행성 상점을 업그레이드하면 다음 선택지가 추가됩니다:\n[TAB][BP] [INNO]을 사용해 [b|토지 강화] 획득\n[TAB][BP] [WEALTH]를 사용해 {0} 구매\n[TAB][BP] 어떤 자원이든 사용해 추가 [EON] 구매",
+    "baselineBefore": "행성 상점을 업그레이드하면 다음 선택지가 추가됩니다:\n[TAB][BP] [INNO]을 사용해 [b|토지 강화] 획득\n[TAB][BP] [WEALTH]를 사용해 {0} 구매\n[TAB][BP] 어떤 자원이든 사용해 추가 [EON] 구매",
+    "after": "행성 상점을 업그레이드하면 다음 선택지가 추가됩니다:\n[TAB][BP] [INNO]을 사용해 [b|영토 확장 포인트] 획득\n[TAB][BP] [WEALTH]를 사용해 {0} 구매\n[TAB][BP] 어떤 자원이든 사용해 추가 [EON] 구매",
+    "reason": "BORDER_EXPANSION의 현재 공용 자원 이름과 행성 상점의 설명을 맞췄습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "VICTORIA_WATERLILY_EXPLAINER_WHEN_PLACED_LOCK",
+    "before": "배치하면 이 [BIOTICUM]이 잠깁니다. [UNIQUE] [TAG|양서류] [BIOTICA]가 2종 이상 인접해 있으면 [ASPECT_CHARGE|+8]",
+    "baselineBefore": "배치하면 이 [BIOTICUM]이 잠깁니다. 서로 다른 [UNIQUE] [TAG|양서류] [BIOTICA]가 2종 이상 인접해 있으면 [ASPECT_CHARGE|+8]",
+    "after": "배치하면 이 [BIOTICUM]이 잠깁니다. [UNIQUE] [TAG|수륙 양용] [BIOTICA]가 2종 이상 인접해 있으면 [ASPECT_CHARGE|+8]",
+    "reason": "AMPHIBIOUS_VISUALNAME 및 동일 특성의 기존 번역 수륙 양용과 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "WETLANDS_DESCRIPTION",
+    "before": "[b|주요 생산량]: [CURIO]\n<b>[BIOTICA] 중점</b>: [b|양서류], [TAG|파충류], [ASPECTS]\n\n\n<b>공생 효과</b>:\n[BP] [ASPECTS]과 [ASPECT]의 배치에 따라 발동합니다.\n[BP] [b|양서류]와 [b|파충류] 태그에 따라 발동합니다.",
+    "baselineBefore": "[b|주요 생산량]: [CURIO]\n<b>[BIOTICA] 중점</b>: [b|양서류], [TAG|파충류], [ASPECTS]\n\n\n<b>공생 효과</b>:\n[BP] [ASPECTS]과 [ASPECT]의 배치에 따라 발동합니다.\n[BP] [b|양서류]와 [b|파충류] 태그에 따라 발동합니다.",
+    "after": "[b|주요 생산량]: [CURIO]\n<b>[BIOTICA] 중점</b>: [b|수륙 양용], [TAG|파충류], [ASPECTS]\n\n\n<b>공생 효과</b>:\n[BP] [ASPECTS]과 [ASPECT]의 배치에 따라 발동합니다.\n[BP] [b|수륙 양용]과 [b|파충류] 태그에 따라 발동합니다.",
+    "reason": "특정 동물 분류인 양서류가 아니라 물과 육지에 배치 가능한 수륙 양용 특성을 뜻하도록 통일했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "WINTERFUR_ASPECT_DESCRIPTION",
+    "before": "대상 [ANIMAL]이 [VALUABLES_C|+10%]를 얻습니다.\n이 [ANIMAL]이 [b|포식자]라면 보너스가 [VALUABLES_C|+40%]로 증가합니다.",
+    "baselineBefore": "대상 [ANIMAL]이 [VALUABLES_C|+10%]를 얻습니다.\n이 [ANIMAL]이 [b|포식자]라면 보너스가 [VALUABLES_C|+40%]로 증가합니다.",
+    "after": "대상 [ANIMAL]이 [VALUABLES_C|+10%]를 얻습니다.\n이 [ANIMAL]이 [b|포식 동물]이라면 보너스가 [VALUABLES_C|+40%]로 증가합니다.",
+    "reason": "Predator의 기존 특성명 포식 동물과 맞췄습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "with [b|Micro Haven]",
+    "before": "[b|소형 바이오티카 서식지] 보유",
+    "baselineBefore": "[b|소형 바이오티카 서식지] 보유",
+    "after": "[b|소형 창조물 보금자리] 보유",
+    "reason": "Micro Haven의 실제 명칭과 동일하게 꾸밈 태그 내부의 표시어를 교정했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "You already have another {0} that has the required [BIO|C].",
+    "before": "필요한 [BIO|C]을 갖춘 다른 {0}이(가) 이미 있습니다.",
+    "baselineBefore": "필요한 [BIO|C]을 갖춘 다른 {0}이(가) 이미 있습니다.",
+    "after": "필요한 [BIO]을 갖춘 다른 {0}이(가) 이미 있습니다.",
+    "reason": "[BIO|C]는 실제 형식 매크로에 문자 C를 전달합니다. 수량 인수가 없는 자원명을 뜻하는 중국어/호출부 문맥에 맞춰 번역값만 [BIO]로 바로잡고 KEY는 보존했습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  },
+  {
+    "key": "Your highest achieved rank for {0} is {1} stars. Complete every part of the Challenger's Quest achieve 3 stars!",
+    "before": "{0}에서 달성한 최고 평가는 {1}성입니다. 해당 시대의 ‘도전 과제’ 모든 항목을 완료하여 3성 평가를 받으세요!",
+    "baselineBefore": "{0}에서 달성한 최고 평가는 {1}성입니다. ‘도전 과제’의 모든 항목을 완료하여 3성 평가를 받으세요!",
+    "after": "{0}에서 달성한 최고 평가는 {1}성입니다. 해당 시대의 ‘도전 임무’ 모든 항목을 완료하여 3성 평가를 받으세요!",
+    "reason": "시대의 Challenger Quest를 가리키는 공통 명칭을 도전 임무로 맞췄습니다.",
+    "approval": "2026-11-02 user corrected translation markup policy",
+    "report": "hold-reassessment.json"
+  }
+]

@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <!-- This file is imported before Microsoft.Common.props. Keeping these
+         paths outside BepInEx\plugins prevents recursive plugin discovery. -->
+    <BuildRoot Condition="'$(BuildRoot)' == ''">C:\My Games\Reus 2\.Works\plugin\build</BuildRoot>
+    <BaseOutputPath>$(BuildRoot)\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(BuildRoot)\obj\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+</Project>

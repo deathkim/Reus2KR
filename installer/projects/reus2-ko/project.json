@@ -1,0 +1,72 @@
+{
+  "id": "reus2-ko",
+  "name": "Reus 2 한국어화",
+  "version": "1.0.0",
+  "description": "Reus 2 (GOG v1.12.2) 한국어 번역. 게임 폴더를 고르고 설치를 누르면 됩니다.",
+  "output": "Reus2KR_Setup.exe",
+  "sourceGameDir": "C:/My Games/Reus 2",
+  "notice": "■ 설치 전에 게임을 종료하세요.\n■ 이 한글화는 BepInEx 플러그인 방식입니다. 게임 원본 파일은 수정하지 않으며, '제거'를 누르면 설치한 파일만 삭제됩니다.\n■ 게임을 실행한 뒤 설정의 언어 목록에서 '한국어 (MOD)'를 선택하세요. 글꼴과 글꼴 크기도 게임 안 설정에서 바꿀 수 있습니다.\n■ 번역 수정: 설치 후 BepInEx\\plugins\\Reus2KR\\ko.csv 를 고치고 게임에서 ESC 를 눌러 메뉴를 열었다 닫으면 반영됩니다.\n■ 이 프로그램은 BepInEx(LGPL-2.1) 등 오픈소스를 포함합니다. 자세한 내용은 NOTICE.txt 를 참고하세요.",
+  "game": {
+    "exe": "Reus 2.exe",
+    "detectFiles": [
+      "Reus 2.exe",
+      "Reus 2_Data/Managed/Assembly-CSharp.dll"
+    ],
+    "searchPaths": [
+      "C:\\My Games\\Reus 2",
+      "C:\\GOG Games\\Reus 2",
+      "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Reus 2"
+    ],
+    "steamFolder": "Reus 2"
+  },
+  "verify": [
+    {
+      "file": "Reus 2_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "auto",
+      "onMismatch": "warn",
+      "message": "검증된 게임 버전(GOG v1.12.2)과 다른 게임 파일입니다. 다른 버전이나 Steam 판이면 일부 문구가 맞지 않을 수 있습니다."
+    }
+  ],
+  "bepinex": {
+    "detect": "BepInEx/core/BepInEx.dll",
+    "files": [
+      {
+        "from": "{sourceGameDir}/winhttp.dll",
+        "to": "winhttp.dll"
+      },
+      {
+        "from": "{sourceGameDir}/doorstop_config.ini",
+        "to": "doorstop_config.ini"
+      },
+      {
+        "fromDir": "{sourceGameDir}/BepInEx/core",
+        "toDir": "BepInEx/core",
+        "include": [
+          "*.dll"
+        ]
+      }
+    ]
+  },
+  "modes": {
+    "plugin": {
+      "label": "플러그인 방식 (권장)",
+      "description": "BepInEx 와 한글화 플러그인을 설치합니다. 원본 파일은 수정하지 않으며 모든 기능(글꼴 선택, 조사 처리, 보충 번역)을 사용합니다.",
+      "requiresBepInEx": true,
+      "files": [
+        {
+          "fromDir": "{sourceGameDir}/BepInEx/plugins/Reus2KR",
+          "toDir": "BepInEx/plugins/Reus2KR",
+          "include": [
+            "Reus2KR.dll",
+            "ko.csv",
+            "*.ttf"
+          ]
+        }
+      ]
+    }
+  },
+  "distFiles": [
+    "NOTICE.txt",
+    "사용방법.txt"
+  ]
+}
