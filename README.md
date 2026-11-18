@@ -11,8 +11,10 @@ Reus 2(GOG v1.12.2 기준) 한국어 번역과 BepInEx 플러그인(`Plugin.cs`)
 - [설치](#설치)
 - [제거](#제거)
 - [게임 안에서](#게임-안에서)
+- [원하는 글꼴 적용하기](#원하는-글꼴-적용하기)
 - [문제가 생기면](#문제가-생기면)
 - [저장소 구성](#저장소-구성)
+- [오픈소스·글꼴 고지](#오픈소스글꼴-고지)
 
 ## 개요
 
@@ -72,6 +74,26 @@ Reus 2(GOG v1.12.2 기준) 한국어 번역과 BepInEx 플러그인(`Plugin.cs`)
 - 글꼴과 글꼴 크기는 게임 설정 화면의 한국어 항목에서 바꿀 수 있습니다.
 - 번역을 직접 고치려면 `BepInEx\plugins\Reus2KR\ko.csv`를 편집한 뒤, 게임에서 ESC로 메뉴를 열었다 닫으면 반영됩니다.
 
+## 원하는 글꼴 적용하기
+
+1. 게임을 종료합니다.
+2. 사용할 `.ttf` 파일을 `BepInEx\plugins\Reus2KR` 폴더에 넣습니다. (게임 폴더 아래, `ko.csv`가 있는 폴더입니다.)
+3. 게임을 실행하고 설정 화면의 한국어 글꼴 목록에서 해당 파일을 고릅니다.
+
+설정 화면 대신 설정 파일로 지정할 수도 있습니다. `BepInEx\config\com.reus2kr.localization.cfg`의 `[KoreanFont]` 항목에서 `FileName`에 파일 이름을 적습니다.
+
+```ini
+[KoreanFont]
+FileName = MyFont.ttf
+```
+
+- 확장자가 `.ttf`인 파일만 목록에 나타납니다. `.otf`, `.ttc` 파일은 사용할 수 없으므로, 필요하면 TTF로 변환해서 넣으세요.
+- 한글 글자가 들어 있는 글꼴이어야 합니다. 한글이 없는 글꼴은 불러오지 못해 기존 글꼴이 유지됩니다.
+- `FileName`을 비워 두면 게임의 원래 글꼴을 사용합니다.
+- 글꼴 크기는 같은 파일의 `SizePercent`(80~120)로도 바꿀 수 있습니다.
+- 목록에 보이지 않으면 파일 이름과 확장자를 확인한 뒤 게임을 다시 시작하세요. 불러오지 못한 이유는 `BepInEx\LogOutput.log`에 남습니다.
+- 글꼴 파일의 이용 조건은 해당 글꼴 제작자의 안내를 따라야 합니다. 설치기를 통해 다른 사람에게 배포할 때는 라이선스를 확인하세요.
+
 ## 문제가 생기면
 
 - `BepInEx\LogOutput.log` 파일을 확인하세요.
@@ -89,3 +111,20 @@ Reus 2(GOG v1.12.2 기준) 한국어 번역과 BepInEx 플러그인(`Plugin.cs`)
 | `plugin/tools/ko-tool.py`, `plugin/ko-tool.bat` | 번역을 JSONL로 내보내고 가져오는 작업 도구와 실행 배치 |
 
 게임 데이터와 실행 파일은 포함하지 않습니다.
+
+## 오픈소스·글꼴 고지
+
+이 배포본은 아래 구성 요소를 포함합니다. 각 구성 요소는 해당 라이선스를 따르며, 라이선스 전문은 각 프로젝트 저장소에서 확인할 수 있습니다.
+
+1. **BepInEx 5.4.23.5** — LGPL-2.1 · <https://github.com/BepInEx/BepInEx>
+   - `BepInEx/core`의 `BepInEx.dll`, `BepInEx.Preloader.dll`, `BepInEx.Harmony.dll`, `HarmonyXInterop.dll` 등
+   - LGPL에 따라 소스 코드는 위 저장소에서 받을 수 있으며, 사용자는 이 파일들을 자유롭게 교체할 수 있습니다.
+2. **Unity Doorstop** (`winhttp.dll`, `doorstop_config.ini`) — CC0 / Public Domain · <https://github.com/NeighTools/UnityDoorstop>
+3. **HarmonyX / 0Harmony** — MIT · <https://github.com/BepInEx/HarmonyX>
+4. **MonoMod** (RuntimeDetour, Utils) — MIT · <https://github.com/MonoMod/MonoMod>
+5. **Mono.Cecil** — MIT · <https://github.com/jbevain/cecil>
+6. **Pretendard 글꼴** (`Pretendard-Regular.ttf`, `Pretendard-SemiBold.ttf`) — SIL Open Font License 1.1 · <https://github.com/orioncactus/pretendard>
+7. **메이플스토리 서체** (`Maplestory Bold.ttf`, `Maplestory Light.ttf`) — NEXON 서체 이용 범위에 따라 비상업적·개인 용도로 무료 이용합니다.
+   - 글꼴 파일은 수정하지 않은 상태로만 포함되어 있으며, 이용 조건은 NEXON의 공식 안내를 따릅니다.
+   - 이 글꼴 사용을 원하지 않으면 설치된 `BepInEx\plugins\Reus2KR` 폴더에서 해당 ttf 파일을 삭제해도 됩니다.
+8. **Reus 2의 게임 데이터·이미지**는 이 배포본에 포함되어 있지 않습니다. 번역 파일(`ko.csv`)은 게임 텍스트의 한국어 번역본이며, 게임의 저작권은 각 권리자에게 있습니다.
